@@ -9,9 +9,9 @@ ENV FLASK_DEBUG=True \
     FLASK_ENV=development \
     SECRET_KEY=b'#q)\\x00\xd6\x9f<iBQ\xd7;,\xe2E' \
     JWT_SECRET_KEY=b'#q)\\x00\xd6\x9f<iBQ\xd7;,\xe2E' \
-    MYSQL_USER_NAME=root \
+    MYSQL_USER_NAME=test \
     MYSQL_USER_PASSWORD=123456 \
-    MYSQL_HOSTNAME=127.0.0.1 \
+    MYSQL_HOSTNAME=172.17.0.1 \
     MYSQL_PORT=3306 \
     MYSQL_DATABASE_NAME=flask_test
 
